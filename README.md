@@ -24,3 +24,6 @@ HTTP监听 8080 端口，
 ![img]
 [img]:https://github.com/NodeMedia/NodeMediaDevClient/raw/master/QQ20160310-0.png
 源码在此:https://github.com/NodeMedia/NodeMediaDevClient
+
+# 另一个选择(experimental)
+Simple-Rtmp-Server-win32 https://github.com/illuspas/srs-win32
