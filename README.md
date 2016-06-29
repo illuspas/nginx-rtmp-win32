@@ -1,11 +1,13 @@
 nginx-rtmp-win32
 ================
 
-Nginx: 1.9.5  
+Nginx: 1.10.1  
 Nginx-Rtmp-Module: 1.1.7  
-openssl-1.0.1p  
-pcre-8.36  
-zlib-1.2.8  
+openssl-1.0.2h  
+pcre-8.38  
+zlib-1.2.8
+
+
 # 使用方法
 双击nginx.exe
 # 简要说明
