@@ -44,5 +44,5 @@ HTTP监听 8080 端口，
 [img]:https://github.com/NodeMedia/NodeMediaDevClient/raw/master/QQ20160310-0.png
 源码在此:https://github.com/NodeMedia/NodeMediaDevClient
 
-# 另一个选择(experimental)
+# 另一个选择，支持HTTP-FLV
 Simple-Rtmp-Server-win32 https://github.com/illuspas/srs-win32
