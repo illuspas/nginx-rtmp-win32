@@ -64,7 +64,7 @@ HTTP监听 8080 端口，
 ```
  application live {
      live on;
-     live_auth off;  #鉴权开关
+     live_auth on;  #鉴权开关
      live_auth_secret nodemedia2017privatekey; #鉴权KEY
 }
 ```
