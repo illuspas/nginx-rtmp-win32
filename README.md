@@ -39,6 +39,33 @@ HTTP监听 8080 端口，
 * :8080/index.html 为一个直播播放与直播发布测试器
 * :8080/vod.html 为一个支持RTMP和HLS点播的测试器
 
+# 播放防盗链与推流鉴权
+## 加密 URL 构成:
+>rtmp://域名/业务名/流名?sign=失效时间戳-HashValue  
+
+1.推流与播放地址:  
+> rtmp://192.168.0.10/live/stream123
+
+2.链接失效时间:2017/3/23 10:10:0 计算出来的失效时间戳为  
+>1490235000
+
+3.nginx.conf配置key  
+>nodemedia2017privatekey
+
+4.组合为HashValue  
+>HashValue = md5("/live/stream123-1490235000-nodemedia2017privatekey”)   
+>HashValue = d03af0812548d315279936ad76f912be
+
+5.最终请求地址  
+>rtmp://192.168.0.10/live/stream123?sign=1490235000-d03af0812548d315279936ad76f912be
+## nginx.conf 鉴权配置说明
+```
+ application live {
+     live on;
+     live_auth off;  #鉴权开关
+     live_auth_secret nodemedia2017privatekey; #鉴权KEY
+}
+```
 # 注意
 不支持exec
 
