@@ -57,7 +57,9 @@ HTTP监听 8080 端口，
 >HashValue = d03af0812548d315279936ad76f912be
 
 5.最终请求地址  
->rtmp://192.168.0.10/live/stream123?sign=1490235000-d03af0812548d315279936ad76f912be
+>rtmp://192.168.0.10/live/stream123?sign=1490235000-d03af0812548d315279936ad76f912be  
+>sign关键字不能修改
+
 ## nginx.conf 鉴权配置说明
 ```
  application live {
