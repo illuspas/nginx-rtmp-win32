@@ -66,6 +66,9 @@ HTTP监听 8080 端口，
      live_auth_secret nodemedia2017privatekey; #鉴权KEY
 }
 ```
+## 安全URL的产生  
+应该由业务服务器生成安全的URL,防止在客户端泄漏key.可参考auth_gen.php
+
 # 注意
 不支持exec
 
