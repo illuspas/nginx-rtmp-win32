@@ -75,9 +75,8 @@ HTTP监听 8080 端口，
 不支持exec
 
 # 直播测试工具 
-内置了一个方便测试的pc端推流于播放的工具
-![img]
-[img]:https://github.com/NodeMedia/NodeMediaDevClient/raw/master/QQ20160310-0.png
+内置了一个方便测试的pc端推流于播放的工具  
+![img](https://github.com/NodeMedia/NodeMediaDevClient/raw/master/QQ20160310-0.png)  
 源码在此:https://github.com/NodeMedia/NodeMediaDevClient
 
 # 另一个选择，支持HTTP-FLV
