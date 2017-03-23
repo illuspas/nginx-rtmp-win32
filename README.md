@@ -7,7 +7,7 @@ openssl-1.1.0e
 pcre-8.40  
 zlib-1.2.10
 
-#configure arguments
+# configure arguments
 ```
 nginx version: nginx/1.11.10
 built by cl
