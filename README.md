@@ -34,10 +34,10 @@ ith-http_slice_module --with-mail --with-stream --with-openssl=objs/lib/openssl-
 # 简要说明
 conf/nginx.conf 为配置文件实例  
 RTMP监听 1935 端口，启用live 和hls 两个application  
-HTTP监听 8000 端口，
-* :8000/stat 查看stream状态  
-* :8000/index.html 为一个直播播放与直播发布测试器
-* :8000/vod.html 为一个支持RTMP和HLS点播的测试器
+HTTP监听 8080 端口，
+* :8080/stat 查看stream状态  
+* :8080/index.html 为一个直播播放与直播发布测试器
+* :8080/vod.html 为一个支持RTMP和HLS点播的测试器
 
 # 注意
 不支持exec
