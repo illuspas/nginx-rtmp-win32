@@ -48,4 +48,5 @@ HTTP监听 8080 端口，
 源码在此:https://github.com/NodeMedia/NodeMediaDevClient
 
 # 另一个选择，支持HTTP-FLV
-Simple-Rtmp-Server-win32 https://github.com/illuspas/srs-win32
+基于Node.js实现,高性能,原生跨平台,支持RTMP/HTTP-FLV/GOPcache
+https://github.com/illuspas/Node-Media-Server 
