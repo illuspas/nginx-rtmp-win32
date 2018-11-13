@@ -47,6 +47,5 @@ HTTP监听 8080 端口，
 ![img](https://github.com/NodeMedia/NodeMediaDevClient/raw/master/QQ20160310-0.png)
 源码在此:https://github.com/NodeMedia/NodeMediaDevClient
 
-# 另一个选择，支持HTTP-FLV
-基于Node.js实现,高性能,原生跨平台,支持RTMP/HTTP-FLV/GOPcache
-https://github.com/illuspas/Node-Media-Server 
+# H265
+支持ID=12的h265流,需要客户端支持.
