@@ -7,6 +7,9 @@ nginx-rtmp-win32
 * pcre-8.42
 * zlib-1.2.11
 
+# dev分支说明
+在1.2.1基础上做一些小修改，原版请用master分支
+
 # configure arguments
 ```
 nginx version: nginx/1.14.1
