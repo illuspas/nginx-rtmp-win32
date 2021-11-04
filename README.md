@@ -47,8 +47,10 @@ HTTP监听 8080 端口，
 
 # 直播测试工具 
 内置了一个方便测试的pc端推流于播放的工具
-![img](https://github.com/NodeMedia/NodeMediaDevClient/raw/master/QQ20160310-0.png)
-源码在此:https://github.com/NodeMedia/NodeMediaDevClient
+[vlc player支持本地和在线直播](https://www.videolan.org)
+![image](https://user-images.githubusercontent.com/18340126/140310626-417b47b9-43e5-42a4-9066-19cd29ffc486.png)
+![image](https://user-images.githubusercontent.com/18340126/140310865-d39b9076-475b-40c2-8ea0-ea8f8f75bfaa.png)
+
 
 # H265
 支持ID=12的h265流,需要客户端支持.
